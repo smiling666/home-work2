@@ -1,0 +1,69 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    background: url(./a-dark-background-with-a-wreath-of-flowers-and-a-black-background_902639-3665.avif) no-repeat center/cover;
+}
+.wrapper{
+  overflow: hidden;
+  font-family: 'Raleway', sans-serif;
+ justify-content: center;
+ align-items: center;
+ min-height: 100%;
+ display: flex;
+ animation: gradient forwards;
+}
+.content{
+    border: dashed ;
+    height: 356px;
+    width: 250px;
+   padding: 15px;
+   border-radius: 50px 50px 50px 50px;
+    animation: style 3s forwards;
+}
+.poem{
+    font-size: 17px;
+}
+@keyframes gradient {
+    0%{
+         background: rgba(230, 233, 230, 0.452);
+    }
+    50%{
+        background: rgba(199, 191, 191, 0.356);
+    }
+    100%{
+        background: rgba(253, 255, 253, 0.247);
+    }
+        
+    }
+@keyframes style{
+    0%{
+        transform: translateX(-100vw);
+    }
+    50%{
+        transform: scale(0.5) rotate(170eg);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.submit{ 
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+   justify-content: center;
+   align-items: center;
+   min-height: 100%;
+   display: flex;
+   animation: gradient forwards;
+  
+
+}
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 30px;
+    border-radius: 5px;
+    background: white;
+}
